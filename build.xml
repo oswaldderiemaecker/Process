@@ -3,7 +3,7 @@
 <project name="contexts" default="help">
 
     <target name="install-uopz-php-ext" description="Install uopz PECL extension">
-      <exec command="phpbrew install ext uopz" />
+      <exec command="phpbrew install ext uopz" passthru="true"/>
     </target>
 
 </project>
