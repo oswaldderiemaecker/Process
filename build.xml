@@ -4,6 +4,7 @@
 
     <target name="install-uopz-php-ext" description="Install uopz PECL extension">
       <exec command="phpbrew ext install uopz" passthru="true"/>
+      <exec command="php -m | grep uopz" passthru="true"/>
     </target>
 
 </project>
