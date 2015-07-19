@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name="contexts" default="help">
+
+    <target name="install-uopz-php-ext" description="Install uopz PECL extension">
+      <exec command="phpbrew install ext uopz" />
+    </target>
+
+</project>
